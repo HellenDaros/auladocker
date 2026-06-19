@@ -33,7 +33,7 @@ public class TokenService {
     @Autowired
     private UsuarioRepository usuarioRepository;
 
-    public Usuario validarToken(String token) {
+   // public Usuario validarToken(String token) {
 
         try {
             Algorithm algoritimo = Algorithm.HMAC256(secret);
